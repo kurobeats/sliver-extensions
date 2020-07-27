@@ -11,6 +11,7 @@
                 {
                     "os": "windows",
                     "files": {
+                        "x64": "Snaffler.exe",
                         "x86": "Snaffler.exe"
                     }
                 }

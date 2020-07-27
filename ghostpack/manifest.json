@@ -1,0 +1,59 @@
+{
+    "extensionName": "GhostPack",
+    "extensionCommands": [
+        {
+            "name": "rubeus",
+            "entrypoint": "Main",
+            "help": "Rubeus is a C# toolset for raw Kerberos interaction and abuses.",
+            "longHelp": "[[.Bold]]Command[[.Normal]]: rubeus [command] [options]\n[[.Bold]]About:[[.Normal]] Rubeus is a C# toolset for raw Kerberos interaction and abuses.\n\nRun [[.Bold]]rubeus /help[[.Normal]] to list all examples.",
+            "allowArgs": true,
+            "extFiles": [
+                {
+                    "os": "windows",
+                    "files": {
+                        "x64": "Rubeus.exe",
+                        "x86": "Rubeus.exe"
+                    }
+                }
+            ],
+            "isReflective": false,
+            "isAssembly": true
+        },
+        {
+            "name": "seatbelt",
+            "entrypoint": "Main",
+            "help": "Seatbelt is a C# project that performs a number of security oriented host-survey \"safety checks\" relevant from both offensive and defensive security perspectives.",
+            "longHelp": "[[.Bold]]Command[[.Normal]]: seatbelt [command] [options]\n[[.Bold]]About:[[.Normal]] Seatbelt is a C# project that performs a number of security oriented host-survey \"safety checks\" relevant from both offensive and defensive security perspectives.\n\nRun [[.Bold]]seatbelt /help[[.Normal]] to list all examples.",
+            "allowArgs": true,
+            "extFiles": [
+                {
+                    "os": "windows",
+                    "files": {
+                        "x64": "Seatbelt.exe",
+                        "x86": "Seatbelt.exe"
+                    }
+                }
+            ],
+            "isReflective": false,
+            "isAssembly": true
+        },
+        {
+            "name": "sharpwmi",
+            "entrypoint": "Main",
+            "help": "SharpWMI is a C# implementation of various WMI functionality.",
+            "longHelp": "[[.Bold]]Command[[.Normal]]: sharpwmi action=[action] query=[query] computername=[computername] [options]\n[[.Bold]]About:[[.Normal]] SharpWMI is a C# implementation of various WMI functionality. This includes local/remote WMI queries, remote WMI process creation through win32_process, and remote execution of arbitrary VBS through WMI event subscriptions. Alternate credentials are also supported for remote methods.",
+            "allowArgs": true,
+            "extFiles": [
+                {
+                    "os": "windows",
+                    "files": {
+                        "x64": "SharpWMI.exe",
+                        "x86": "SharpWMI.exe"
+                    }
+                }
+            ],
+            "isReflective": false,
+            "isAssembly": true
+        }
+    ]
+}
