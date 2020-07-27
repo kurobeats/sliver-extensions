@@ -1,0 +1,22 @@
+{
+    "extensionName": "Snaffler",
+    "extensionCommands": [
+        {
+            "name": "snaffler",
+            "entrypoint": "Main",
+            "help": "Snaffler is a tool for pentesters to help find delicious candy needles (creds mostly, but it's flexible) in a bunch of horrible boring haystacks (a massive Windows/AD environment).",
+            "longHelp": "[[.Bold]]Command[[.Normal]]: snaffler [command] [options]\n[[.Bold]]About:[[.Normal]] snaffler is a tool for pentesters to help find delicious candy needles.\n\nRun [[.Bold]]snaffler [[.Normal]]to list all examples.",
+            "allowArgs": true,
+            "extFiles": [
+                {
+                    "os": "windows",
+                    "files": {
+                        "x86": "Snaffler.exe"
+                    }
+                }
+            ],
+            "isReflective": false,
+            "isAssembly": true
+        }
+    ]
+}
